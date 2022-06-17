@@ -6,6 +6,87 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
 }
+
+.instagram-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    height: 85vh;
+}
+
+.logo {
+    height: 3rem;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    height: 10rem;
+}
+
+
+.instagram-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 34rem;
+    border: 1px solid gray;
+    padding: 5%;
+}
+
+.instagram-logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.wrong-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 30vh;
+    border: 1px solid gray;
+    padding: 5%;
+}
+
+button {
+    background-color: #27a5f7;
+    padding: 7px;
+    margin-top: 20px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+
